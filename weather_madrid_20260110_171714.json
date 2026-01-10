@@ -1,0 +1,518 @@
+[
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 1,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 2,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 3,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 4,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 5,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 6,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 7,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 8,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 9,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 10,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 11,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  },
+  {
+    "mes": "Mes desconocido",
+    "numero_mes": 12,
+    "total_dias": 6,
+    "datos": [
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11",
+        "temp_min": "5",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "10 ene",
+        "temp_max": "11C",
+        "temp_min": "0",
+        "precipitacion": "0"
+      },
+      {
+        "fecha": "72\nfeb",
+        "temp_max": "11",
+        "temp_min": "0",
+        "precipitacion": "0"
+      }
+    ]
+  }
+]
