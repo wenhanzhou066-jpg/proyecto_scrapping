@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split # type: ignore
 import pandas as pd # type: ignore
 
 # Cargamos el dataset en un dataframe
-df = pd.read_csv('2clima_procesado.csv')
+df = pd.read_csv('clima_procesado.csv')
 
 # Convertimos la columna 'date' en formato datetime
 df["fecha"] = pd.to_datetime(df["fecha"])
