@@ -38,7 +38,7 @@ for i in range (len(y_pred)):
 
 df_pred = pd.DataFrame({
     "fecha": fechas,
-    "temperatura_máxima": y_pred.round(2)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 2 decimales
+    "temp_max_predicha": y_pred.round(2)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 2 decimales
 })
 
 df_pred.to_csv("predicciones_ml.csv", index = False) # Creamos el csv 
