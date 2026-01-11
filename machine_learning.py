@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split # type: ignore
 import pandas as pd # type: ignore
 
 # Cargamos el dataset en un dataframe
-df = pd.read_csv('clima_procesado.csv')
+df = pd.read_csv('2clima_procesado.csv')
 
 # Convertimos la columna 'date' en formato datetime
 df["fecha"] = pd.to_datetime(df["fecha"])
@@ -12,7 +12,7 @@ df["fecha"] = pd.to_datetime(df["fecha"])
 # Convertimos fecha en número ordinal
 df["fecha_ordinal"] = df["fecha"].astype("int64") / 10**9 # con astype pasamos la fecha a nanosegundos y dividimos por 10**9  (1.000.000.000) para pasarlo a segundos 
 
-X = df[["fecha_ordinal" , "precipitacion", "temp_min", "temp_media","dia_del_anyo","lluvia"]].values # El valor de X son las variables de entrada, lo que vamos a usar para predecir
+X = df[["fecha_ordinal", "precipitacion", "temp_min", "temp_media","dia_del_anyo","lluvia"]].values # El valor de X son las variables de entrada, lo que vamos a usar para predecir
 y = df["temp_max"].values # y es la variable objetivo, lo que queremos predecir   .values convirte el dataframe en un array de Numpy para poder procesarlo
 
 # Dividimos los datos en entrenamiento y test , ponemos shuffle= False para que no mezcle los datos y asi seguir orden cronológico, 20% datos son para test (test_size)
@@ -30,4 +30,16 @@ RMSE = root_mean_squared_error(y_test, y_pred) # Igual que el MAE pero dando mas
 
 print(f"MAE: {MAE:.2f}ºC")
 print(f"RMSE: {RMSE:.2f}ºC")
+
+fechas = [] # Creamos una lista de fechas
+
+for i in range (len(y_pred)):
+    fechas.append(df["fecha"][i])  # Guardamos fecha por cada predicción
+
+df_pred = pd.DataFrame({
+    "fecha": fechas,
+    "temp_max": y_pred.round(2)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 2 decimales
+})
+
+df_pred.to_csv("predicciones_ml.csv", index = False) # Creamos el csv 
 
