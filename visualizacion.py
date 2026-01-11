@@ -5,14 +5,14 @@ import numpy as np
 from machine_learning import y_test, y_pred   
 
 # Cargar los datos reales
-df = pd.read_csv("clima_procesado.csv", parse_dates=["date"])
-df = df.sort_values("date")
+df = pd.read_csv("clima_procesado.csv", parse_dates=["fecha"])
+df = df.sort_values("fecha")
 
 # Reconstruir el conjunto test (80% train, 20% test cronológico)
 split = int(len(df) * 0.8)
 test_df = df.iloc[split:]
 
-test_dates = test_df["date"]
+test_dates = test_df["fecha"]
 y_test = test_df["temp_max"]
 
 
