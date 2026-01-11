@@ -36,16 +36,6 @@ dataf["temp_media"] = ((dataf["temp_max"] + dataf["temp_min"]) / 2).round(1)
 dataf["lluvia"] = nump.where(dataf["precipitacion"] > 0, 1, 0)
 
 
-def clasificar_dia(temp):
-    if temp < 10:
-        return "frio"
-    elif temp < 20:
-        return "templado"
-    else:
-        return "calor"
-
-# Apply basicamente lo que hace es pasar los datos que se le indican en este caso la temperatura media por la funciona que llama y dice si el dia es frio calido o templado
-dataf["tipo_dia"] = dataf["temp_media"].apply(clasificar_dia)
 #Esta es la estructura de la tabla 
 dataf_final = dataf[
     [
@@ -56,9 +46,8 @@ dataf_final = dataf[
         "temp_media",
         "precipitacion",
         "lluvia",
-        "tipo_dia"
     ]
 ]
 #Convierte a csv 
-dataf_final.to_csv("2clima_procesado.csv", index=False)
+dataf_final.to_csv("clima_procesado.csv", index=False)
 
