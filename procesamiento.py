@@ -5,7 +5,7 @@ import numpy as nump
 #Libreria numpy sirve para calculos , estadisticas, cuentas , etc
 
 # Lee el CSV
-dataf = panda.read_csv("datos_clima_madrid_2024.csv")
+dataf = panda.read_csv("datos_clima_madrid_2025.csv")
 
 # Convertimos la columna fecha a formato datetime
 dataf["fecha"] = panda.to_datetime(dataf["fecha"])
@@ -60,5 +60,5 @@ dataf_final = dataf[
     ]
 ]
 #Convierte a csv 
-dataf_final.to_csv("clima_procesado.csv", index=False)
+dataf_final.to_csv("2clima_procesado.csv", index=False)
 

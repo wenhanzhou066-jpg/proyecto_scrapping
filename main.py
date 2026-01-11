@@ -1,26 +1,53 @@
-from meteostat import daily
-from datetime import datetime
-import pandas as pd
+import requests
+import csv
 
-# ID de la estación de Madrid (Retiro / AEMET)
-station_id = "08222"
 
-# Fechas: 1 enero 2024 - 31 diciembre 2024
-inicio = datetime(2024, 1, 1)
-fin = datetime(2024, 12, 31)
+url = "https://meteostat.p.rapidapi.com/stations/daily"
 
-# Obtener datos diarios
-datos = daily(station_id, start=inicio, end=fin)
-df = datos.fetch()
+headers = {
+    "X-RapidAPI-Key": "db1142695cmsh339e81a9ce14c6ep1e86f8jsn81be2765aee5", 
+    "X-RapidAPI-Host": "meteostat.p.rapidapi.com"
+}
 
-if df is None or df.empty:
-    raise ValueError(f"No se encontraron datos para la estación {station_id}")
-else:
-    # Seleccionar columnas importantes
-    df = df[['tmax', 'tmin', 'prcp']].reset_index()
-    df.columns = ['fecha', 'temp_max', 'temp_min', 'precipitacion']
+params = {
+    "station": "08222",     # Retiro, Madrid
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+}
 
-    # Guardar CSV
-    df.to_csv("datos_clima_madrid_2024.csv", index=False)
-    print("Datos guardados correctamente en 'datos_clima_madrid_2024.csv'")
-    print(df.head())
+
+# PETICIÓN A LA API
+
+print("Consultando la API de Meteostat…")
+response = requests.get(url, headers=headers, params=params)
+
+if response.status_code != 200:
+    print("Error al consultar la API:", response.status_code)
+    print(response.text)
+    exit()
+
+data = response.json()["data"]  # lista de días
+
+if not data:
+    print("No se obtuvieron datos")
+    exit()
+
+
+# ESCRIBIR CSV
+
+print(f"Generando CSV: datos_clima_madrid_2025.csv")
+with open("datos_clima_madrid_2025.csv", mode="w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    # Cabecera
+    writer.writerow(["fecha", "temp_max", "temp_min", "precipitacion"])
+
+    # Filas
+    for d in data:
+        writer.writerow([
+            d.get("date", "").split(" ")[0],  # solo fecha, sin hora
+            d.get("tmax", ""),
+            d.get("tmin", ""),
+            d.get("prcp", "")
+        ])
+
+print(f"CSV generado correctamente con {len(data)} filas")
