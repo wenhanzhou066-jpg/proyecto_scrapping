@@ -35,7 +35,7 @@ fechas = df["fecha"][len(y_train):]  # seleccionamos las fechas del test de cad
 
 df_pred = pd.DataFrame({
     "fecha": fechas,
-    "temp_max_predicha": y_pred.round(1)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 2 decimales
+    "temp_max_predicha": y_pred.round(1)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 1 decimales
 })
 
 df_pred.to_csv("predicciones_ml.csv", index = False) # Creamos el csv 
