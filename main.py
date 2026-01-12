@@ -11,7 +11,7 @@ headers = {
 
 params = {
     "station": "08222",     # Retiro, Madrid
-    "start": "2025-01-01",
+    "start": "2024-01-01",
     "end": "2025-12-31"
 }
 

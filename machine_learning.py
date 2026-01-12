@@ -31,14 +31,11 @@ RMSE = root_mean_squared_error(y_test, y_pred) # Igual que el MAE pero dando mas
 print(f"MAE: {MAE:.2f}ºC")
 print(f"RMSE: {RMSE:.2f}ºC")
 
-fechas = [] # Creamos una lista de fechas
-
-for i in range (len(y_pred)):
-    fechas.append(df["fecha"][i])  # Guardamos fecha por cada predicción
+fechas = df["fecha"][len(y_train):]  # seleccionamos las fechas del test de cada prediccion
 
 df_pred = pd.DataFrame({
     "fecha": fechas,
-    "temp_max_predicha": y_pred.round(2)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 2 decimales
+    "temp_max_predicha": y_pred.round(1)  # Creamos un dataframe con pandas con las columnas fecha y temp_max redondeada a 2 decimales
 })
 
 df_pred.to_csv("predicciones_ml.csv", index = False) # Creamos el csv 
